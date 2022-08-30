@@ -479,7 +479,7 @@ async def login_post():
         login_time = (time.time_ns() - login_time) / 1e6
         log(f'Login took {login_time:.2f}ms!', Ansi.LYELLOW)
 
-    return await render_template('home.html')
+    return redirect('/home')
     #return await flash('success', f'Hey, welcome back {username}!', 'home')
 
 @frontend.route('/register')
