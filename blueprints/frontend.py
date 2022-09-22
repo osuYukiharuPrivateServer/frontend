@@ -53,7 +53,7 @@ async def home():
 async def home_account_edit():
     return redirect('/settings/profile')
 
-@frontend.route('/settings')
+
 @frontend.route('/settings/profile')
 @login_required
 async def settings_profile():

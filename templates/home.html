@@ -42,9 +42,8 @@
       <div class="column flex-vcenter flex-lcenter is-size-2-desktop is-size-1-fullhd" id="title">
         <h1 class="title is-spaced is-size-2-desktop is-size-1-fullhd">{{ appName() }}</h1>
         <h2 class="subtitle">
-          We are an osu! private server built based on the bancho.py as the backend
-          and a frontend based on guweb! Just fell free to play in our server!
-          We would never ban anyone!
+          Hi~ This is an osu private server runs by two senior high students in China! Our thesis is
+            "Just for fun". Welcome to join us!
         </h2>
         {% if not session.authenticated %}
         <div class="buttons">
@@ -64,8 +63,12 @@
   </div>
 </div>
 <section class="section">
+
+
   <div class="container has-text-centered py-4">
     <h2 class="title mb-6">Our Top Players!</h2>
+      <div class="container flex">
+      <div class="columns flex-vcenter">
     <div class="columns has-text-left mb-8">
       <div class="column is-5">
         <div class="columns">
@@ -165,6 +168,8 @@
 
     </div>
   </div>
+      </div>
+      </div>
 </section>
 
 
@@ -173,9 +178,11 @@
   <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title is-spaced">What are you waiting for?</h1>
-      <h2 class="subtitle">Join {{ appName() }}! It's risk-free! You won't get your account banned on official servers
+      <h2 class="subtitle">Welcome to join us~ It's risk-free! You won't get your account banned on official servers
         if
-        you play here with us! And don't worry, as you can always switch between the official servers and us at any time!</h2>
+        you play here with us! And don't worry, as you can always switch between the official servers and us at any time!
+        (based on bancho.py)
+      </h2>
       <div class="buttons is-centered"><a class="control button is-primary" href="/register">Sign up for free</a><a
           class="control button is-light" href="/login">Login</a></div>
     </div>
